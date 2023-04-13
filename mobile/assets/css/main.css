@@ -694,7 +694,7 @@
   z-index: 5;
 }
 .redmi-smart-band-pro.overview-con .section-o7 .btn {
-  background: #fffff8;
+  /* background: #fffff8; */
   border-radius: 0.208333rem;
   height: 0.208333rem;
   opacity: 0.3;
@@ -4623,7 +4623,7 @@ ul.slides input {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color: #fff;
+  /* background-color: #fff; */
   opacity: 0.5;
   margin: 10px;
   border: 1px solid black;
@@ -4644,9 +4644,35 @@ input#img-2:checked ~ .carousel-dots label#img-dot-2,
 input#img-3:checked ~ .carousel-dots label#img-dot-3,
 input#img-4:checked ~ .carousel-dots label#img-dot-4,
 input#img-5:checked ~ .carousel-dots label#img-dot-5,
-input#img-6:checked ~ .carousel-dots label#img-dot-6 {
-opacity: 1;
-}
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {/* opacity: 1; */}
 
 
 input:checked + .slide-container .nav label { display: block; }
+
+.btn {
+  width: 0.171875rem;
+}
+.btn01 {
+  background: url(//i01.appmifile.com/webfile/globalimg/products/pc/redmi-smart-band-pro/section05-icon01.png)
+    50% no-repeat;
+  background-size: 100% 100%;
+  height: 0.167969rem;
+}
+.btn01.isactive {
+  background: url(//i01.appmifile.com/webfile/globalimg/products/pc/redmi-smart-band-pro/section05-icon02s.png)
+    50% no-repeat;
+  background-size: 100% 100%;
+  height: 0.167969rem;
+}
+.btn02 {
+  background: url(//i01.appmifile.com/webfile/globalimg/products/pc/redmi-smart-band-pro/section05-icon01s.png)
+    50% no-repeat;
+  background-size: 100% 100%;
+  height: 0.167969rem;
+}
+.btn02.isactive {
+  background: url(//i01.appmifile.com/webfile/globalimg/products/pc/redmi-smart-band-pro/section05-icon02.png)
+    50% no-repeat;
+  background-size: 100% 100%;
+  height: 0.167969rem;
+}
